@@ -12,3 +12,8 @@ def feet_to_meters(feet):
         return None
     else:
         return (0.3048 * value * 10000.0 + 0.5) / 10000.0
+
+
+def add(num1, num2):
+    """Add two numbers."""
+    return num1 + num2
